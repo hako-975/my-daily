@@ -2979,13 +2979,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.325
+  m_Height: 1.275
   m_Radius: 0.25
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.715, z: 0}
+  m_Center: {x: 0, y: 0.705, z: 0}
 --- !u!54 &8520968183201746737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3015,7 +3015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSmoothTime: 0.1
-  movementSpeed: 2
+  movementSpeed: 3
   jumpHeight: 2
   gravity: -29.43
   groundDistance: 0.25

@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: Low
@@ -115,7 +115,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 11400000, guid: 4c10cad514963984d8ba270f937b63fb, type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 1
+    Android: 0
     Lumin: 2
     Nintendo 3DS: 2
     Nintendo Switch: 2

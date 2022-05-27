@@ -26,15 +26,15 @@ MonoBehaviour:
   m_StoreActionsOptimization: 0
   m_SupportsHDR: 1
   m_MSAA: 1
-  m_RenderScale: 1.5
+  m_RenderScale: 1
   m_MainLightRenderingMode: 1
   m_MainLightShadowsSupported: 1
   m_MainLightShadowmapResolution: 4096
-  m_AdditionalLightsRenderingMode: 1
+  m_AdditionalLightsRenderingMode: 0
   m_AdditionalLightsPerObjectLimit: 4
   m_AdditionalLightShadowsSupported: 1
   m_AdditionalLightsShadowmapResolution: 512
-  m_ShadowDistance: 100
+  m_ShadowDistance: 20
   m_ShadowCascadeCount: 2
   m_Cascade2Split: 0.25
   m_Cascade3Split: {x: 0.1, y: 0.3}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_DebugLevel: 0
   m_UseAdaptivePerformance: 1
   m_ColorGradingMode: 1
-  m_ColorGradingLutSize: 64
+  m_ColorGradingLutSize: 16
   m_ShadowType: 1
   m_LocalShadowsSupported: 0
   m_LocalShadowsAtlasResolution: 256

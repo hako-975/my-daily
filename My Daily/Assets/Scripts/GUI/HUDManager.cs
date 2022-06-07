@@ -15,7 +15,12 @@ public class HUDManager : MonoBehaviour
         Time.timeScale = 0;
         musicBGM.volume = 0;
         musicBGM.Pause();
-        musicBGM.time -= 2f;
+
+        if (musicBGM.time > 2f)
+        {
+            musicBGM.time -= 2f;
+        }
+
         pausedPanel.SetActive(true);
     }
 

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Hako Lab
-  productName: Ultah Milda
+  productName: My Daily
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -274,7 +274,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 9aaeb2d5d6792d64ba81945f63872016, type: 3}
+      m_Icon: {fileID: 2800000, guid: 4a8843dcb3c8576488de69228b04d8d8, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // joystick
-    Joystick joystick;
-    JoyButton joyButton;
+    public Joystick joystick;
+    public JoyButton jumpButton;
 
     public float turnSmoothTime = 0.1f;
     public float movementSpeed = 2f;
@@ -49,9 +49,6 @@ public class PlayerController : MonoBehaviour
         cam = GameObject.FindGameObjectWithTag("MainCamera");
         groundCheck = GameObject.FindGameObjectWithTag("GroundCheck");
         spawnPoint = GameObject.FindGameObjectWithTag("SpawnPoint");
-
-        joystick = FindObjectOfType<Joystick>();
-        joyButton = FindObjectOfType<JoyButton>();
 
         // move to first position
         characterController.enabled = false;
@@ -103,7 +100,7 @@ public class PlayerController : MonoBehaviour
         isRunning = hasHorizontalInput || hasVerticalInput;
 
         // jump
-        if ((Input.GetKey(KeyCode.Space) || joyButton.pressed) && isGrounded && Time.time > canJump)
+        if ((Input.GetKey(KeyCode.Space) || jumpButton.pressed) && isGrounded && Time.time > canJump)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             canJump = Time.time + 1f;

@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
         // move to first position
         characterController.enabled = false;
-        characterController.transform.position = new Vector3(PlayerPrefsManager.instance.GetPlayerPositionX(), PlayerPrefsManager.instance.GetPlayerPositionY(), PlayerPrefsManager.instance.GetPlayerPositionZ());
+        characterController.transform.position = spawnPoint.transform.position;
         characterController.enabled = true;
     }
 

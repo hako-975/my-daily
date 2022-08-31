@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HUDManager : MonoBehaviour
 {
@@ -82,8 +83,15 @@ public class HUDManager : MonoBehaviour
         droneButton.SetActive(true);
     }
 
+    public void OnClickRestartButton()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void OnClickQuitButton()
     {
+        Time.timeScale = 1;
         isPaused = false;
         Application.Quit();
         Debug.Log("Quit Game!");

@@ -3014,11 +3014,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117b64760c4552848854a717c3ec3220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
+  jumpButton: {fileID: 0}
   turnSmoothTime: 0.1
   movementSpeed: 4
   jumpHeight: 2.5
   gravity: -29.43
-  groundDistance: 0.25
+  groundDistance: 0.45
   maxFallZone: -100
   groundMask:
     serializedVersion: 2

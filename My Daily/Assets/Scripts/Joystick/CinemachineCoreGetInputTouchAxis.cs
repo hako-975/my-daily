@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class CinemachineCoreGetInputTouchAxis : MonoBehaviour
 {
-    public float touchSensitivity = 50f;
+    public float touchSensitivity = 30f;
 
     TouchField touchField;
 
